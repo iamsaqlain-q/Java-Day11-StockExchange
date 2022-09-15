@@ -18,11 +18,6 @@ public class StockPortfolio {
 		super();
 	}
 	
-//	public String toString() {
-//		
-//		return "StockPortfolio listOfStocks[=" + listOfStocks + "]";
-//	}
-	
 	public void addPortfolio(Stock stock) {
 		
 		this.listOfStocks.add(stock);

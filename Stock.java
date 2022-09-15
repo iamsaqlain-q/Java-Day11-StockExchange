@@ -22,12 +22,6 @@ public class Stock {
 		
 	}
 	
-	@Override
-	public String toString(){
-		
-		return "Stock [name = " + names + ", numberOfShares = " + noOfShares + ", sharePrice =" + sharePrice + ", value =" + value +"]"; 
-	}
-	
 public String getNames() {
 	
 	return names;
